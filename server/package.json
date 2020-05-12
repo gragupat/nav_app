@@ -1,0 +1,38 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node -r esm app.js",
+        "dev": "nodemon -r esm app.js",
+        "prod": "NODE_ENV=production node -r esm app.js"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-react-hooks": "^2.5.0"
+    },
+    "dependencies": {
+        "-": "0.0.1",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "body-parser": "^1.19.0",
+        "brew": "0.0.8",
+        "compression": "^1.7.4",
+        "esm": "^3.2.25",
+        "express": "^4.17.1",
+        "helmet": "^3.22.0",
+        "mongoose": "^5.9.13",
+        "nodemon": "^2.0.3",
+        "save": "^2.4.0",
+        "save-dev": "0.0.1-security",
+        "sha256": "^0.2.0"
+    }
+}
